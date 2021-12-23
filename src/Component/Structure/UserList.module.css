@@ -1,0 +1,60 @@
+.usersList {
+  display : flex; 
+  width : 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 20px;
+  border: 1px solid #e0e0e0;
+  padding : 20px;
+  font-size: 19px;
+  border-radius: 10px;
+  height : auto;
+  background-color: white;
+}
+.usersList:hover,
+.usersList:active {
+    
+  box-shadow: 0 0 20px #a3a0a0;
+  font-size: 20px;
+  width : 52%;
+  margin-left: 24%;
+  margin-right: 24%;
+  transition: width 0.5s, margin-left 0.5s, margin-right 0.5s, font-size 0.5s;
+}
+.del{
+  width : 20px;
+}
+.userHead{
+  display : flex; 
+  width : 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top : 10px;
+  padding-left : 10px;
+  padding-right : 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 100px;
+}
+.userData{
+  width : 50%;
+  height : 50px;
+}
+.btn {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #00cfbe;
+  border: 1px solid #08669c;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  height : 50px;
+  width : 50px
+}
+  
+.btn:hover,
+.btn:active {
+  background-color: #f11818;
+  border-color: #02afa1;
+}

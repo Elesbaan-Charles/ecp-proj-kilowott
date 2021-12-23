@@ -1,0 +1,62 @@
+.division_profile{
+    width : 450px;
+    height : 450px;
+    margin:20px;
+    border: 2px solid #00cfbe;
+    border-radius: 25%;
+    font-size: large;
+    text-align :center;
+    padding : 10px;
+    background-color: #e9e9e9b6;
+    position : fixed;
+    box-shadow: 0 0 15px #a3a0a0;
+}
+.division_details{
+    width : 50%;
+    margin-left: 40%;
+    height : auto;
+    right : 0;
+    padding : 20px;
+}
+.cont{
+    display : flex;
+    margin-top : 100px;
+}
+.user_img{
+    border-radius: 50%;
+}
+.follow_btn{
+    width : auto;
+    height : auto;
+    border-radius: 10px;
+    margin-top : 10px;
+    cursor: pointer;
+    background-color: #00cfbe;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    padding : 5px;
+}
+.follow_btn:hover,
+.follow_btn:active {
+    background-color: #f11818;
+    border-color: #02afa1;
+  }
+.Addbtn{
+    width : 40px;
+    height : 40px;
+    background-color: white;
+    border:1px solid #02afa1;
+    border-radius: 50%;
+    font-size: 25px;
+    padding : 1px;
+    position : relative;
+    margin-top : 10px;
+    left:44%;
+}
+.Addbtn:hover,
+.Addbtn:active {
+    background-color: #00cfbe;
+    border-color: #02afa1;
+    color : white
+  }
